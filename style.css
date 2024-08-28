@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    font-family: "Permanent Marker", cursive;
+    margin-bottom: 50px;
+}
+
+header{
+    border-bottom: solid 1px #00c4d0;
+    padding: 20px;
+    font-size: 40px;
+    color: #ffffff;
+    transition:  0.4 all;
+}
+
+header :hover {
+color: #00c4d0;
+transition: 0.3s all;
+
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    color: white;
+}
+
+
+.chamada {
+    background-color: #03424f;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+
+h1 {
+    font-size: 49px;
+    padding-left: 30px;
+}
+
+p {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
+
+.mais-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 7px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.mais-videos img {
+    opacity: 0.5;
+    height: 200px
+}
+
+.mais-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid #00c4d0;
+
+}
+
+.categoria h2 {
+    color: #00c4d0;
+}
+
+.video {
+    padding-right: 25px;
+}
